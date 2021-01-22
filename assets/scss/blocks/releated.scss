@@ -1,0 +1,33 @@
+.releated {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #1C1C1C;;
+}
+
+.releated__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.releated__list-item {
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+.releated__list-title {
+    font-size: 1.4rem;
+    font-family: 500;
+    color: #F3EBA2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+    a {
+        color: inherit;
+    }
+}
+
+.releated__list-date {
+    font-size: 1.2rem;
+    color: #828282;
+}
